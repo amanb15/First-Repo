@@ -32,6 +32,9 @@ class GameOfLife:
       self.old_grid = numpy.zeros(N*N, dtype='i').reshape(N,N)
       self.new_grid = numpy.zeros(N*N, dtype='i').reshape(N,N)
       self.T = T # The maximum number of generations
+
+# changes for QAREF-XYZ
+
 # Changing this file -- QAREF5044
 # Line 2
 # line 3
