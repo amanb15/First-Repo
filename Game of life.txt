@@ -32,6 +32,11 @@ class GameOfLife:
       self.old_grid = numpy.zeros(N*N, dtype='i').reshape(N,N)
       self.new_grid = numpy.zeros(N*N, dtype='i').reshape(N,N)
       self.T = T # The maximum number of generations
+# Changing this file -- QAREF5044
+# Line 2
+# line 3
+# line 4
+# line 5
 
       # Set up a random initial configuration for the grid.
       for i in range(0, self.N):
